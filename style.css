@@ -38,7 +38,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
   font-size: 24px;
   font-weight: 900;
   color: #f9faf8;
@@ -146,6 +145,26 @@ img.media {
   font-size: 24px;
   font-weight: 900;
   color: #1f2937;
+}
+
+.take-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  height: 175px;
+  border-radius: 8px;
+  margin: 80px 272px;
+}
+
+.subscribe {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.take-action .join-us {
+  border: 4px solid #ffffff;
 }
 
 .footer {
