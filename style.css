@@ -55,7 +55,7 @@ img {
   display: flex;
   justify-content: space-around;
   gap: 24px;
-  padding: 64px 272px;
+  padding: 64px 272px 96px;
 }
 
 .left {
@@ -94,10 +94,6 @@ img {
   color: #e5e7eb;
 }
 
-.right {
-  font-size: 10px;
-}
-
 img.media {
   width: 700px;
   height: auto;
@@ -110,7 +106,7 @@ img.media {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-  padding: 64px 272px;
+  padding: 64px 272px 96px;
 }
 
 .teammates {
