@@ -23,18 +23,18 @@ a {
 }
 
 .header, .hero, .footer {
-  background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 .header {
   justify-content: space-between;
   font-size: 24px;
   font-weight: 900;
-  color: #F9FAF8;
+  color: #f9faf8;
   padding: 8px 272px;
 }
 
-.header .links {
+.header .links, .hero {
   gap: 24px;
 }
 
@@ -55,10 +55,13 @@ a {
   color: #f9faf8;
 }
 
-.right {
-  font-size: 10px;
+.right, .desc {
   font-weight: 400;
   color: #e5e7eb;
+}
+
+.right {
+  font-size: 10px;
 }
 
 .media {
@@ -69,13 +72,11 @@ a {
 
 .desc {
   font-size: 18px;
-  font-weight: 400;
-  color: #e5e7eb;
   padding: 8px 0;
 }
 
 .footer {
   text-align: center;
-  color: #E5E7EB;
+  color: #e5e7eb;
   padding: 40px;
 }
