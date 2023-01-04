@@ -22,9 +22,12 @@ a {
   align-items: center;
 }
 
+.header, .footer {
+  background-color: #1F2937;
+}
+
 .header {
   justify-content: space-between;
-  background-color: #1F2937;
   font-size: 24px;
   font-weight: 800;
   color: #F9FAF8;
@@ -33,4 +36,10 @@ a {
 
 .header .links {
   gap: 24px;
+}
+
+.footer {
+  text-align: center;
+  color: #E5E7EB;
+  padding: 40px;
 }
