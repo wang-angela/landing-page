@@ -55,6 +55,27 @@ a {
   color: #f9faf8;
 }
 
+.desc {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.join-us {
+  transition-duration: 0.5s;
+  border: none;
+  border-radius: 12px;
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 25px;
+}
+
+.join-us:hover {
+  background-color: #ffffff;
+  color: #3882f6;
+}
+
 .right, .desc {
   font-weight: 400;
   color: #e5e7eb;
@@ -68,11 +89,6 @@ a {
   width: 700px;
   height: auto;
   padding-bottom: 4px;
-}
-
-.desc {
-  font-size: 18px;
-  padding: 8px 0;
 }
 
 .footer {
